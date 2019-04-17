@@ -25,12 +25,7 @@ body {
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
-  margin: 0px 10px 10px 10px;
-  position: absolute;
-  top: 128px;
-  right: 0px;
-  width: 280px;
- 
+  vertical-align: top;
  
 }
 
@@ -103,4 +98,23 @@ div#tableRow {
   width: 20%;
   padding: 15px;
   vertical-align: top;
+}
+
+.headerImageLeft{
+  float: left;
+  background-image:   url(images/header.gif);
+  width: 400px;
+  height: 100px;
+}
+.headerImageRight{
+  float: right;
+  background-image:   url(images/header.gif);
+  width: 400px;
+  height: 100px;
+  background-position: -400px,0px;
+}
+#award{
+  position: absolute;
+  top: 30px;
+  left: 365px;
 }
